@@ -1,4 +1,4 @@
-Requirement for using LeapMotion Hand Tracking Device:
+# Requirement for using LeapMotion Hand Tracking Device
 
 1. Install Python version 3.8.x only
 
