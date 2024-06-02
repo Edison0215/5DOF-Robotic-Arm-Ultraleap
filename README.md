@@ -11,14 +11,16 @@ Gig Project: Controlling a 5-DOF AR4 Robotic Arm via Ultraleap Hand-tracking Cam
    (https://github.com/ultraleap/leapc-python-bindings)
 
 4. Type the following commands in cmd for libraries installation:
-   pip install build
-   pip install cffi
-   pip install opencv-python
-   pip install numpy
-   pip install pyserial
-   pip install leapc-python-api
+   - pip install build
+   - pip install cffi
+   - pip install opencv-python
+   - pip install numpy
+   - pip install pyserial
+   - pip install leapc-python-api
 
-5. Go to this directory using cmd
+5. Replace the original visualiser.py file in C:\Users\Intel NUC\Desktop\leapc-python-bindings-main\leapc-python-bindings-main\examples
+   with this modifed code that is stored in the hand tracking program directory.
+7. Go to this directory using cmd
    C:\Users\Intel NUC\Desktop\leapc-python-bindings-main\leapc-python-bindings-main\examples
    type the following command to start the program of controlling the robot arm:
    python visualiser.py
@@ -56,3 +58,4 @@ Solution:
 - The robot will automatically go to the reset mode, each motor touches its limit switch
 - Once reset is done, initialize the python program
 - When robot arm is not in used, please replug the power port for resetting its position
+- Press "x" to terminate the visualiser.py while being in the cmd where you initialize the program.
