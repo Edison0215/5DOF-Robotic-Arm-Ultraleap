@@ -14,12 +14,12 @@ Gig Project: Controlling a 5-DOF AR4 Robotic Arm via Ultraleap Hand-tracking Cam
    (https://github.com/ultraleap/leapc-python-bindings)
 
 4. Type the following commands in cmd for libraries installation:
-   - pip install build
-   - pip install cffi
-   - pip install opencv-python
-   - pip install numpy
-   - pip install pyserial
-   - pip install leapc-python-api
+   - ```pip install build```
+   - ```pip install cffi```
+   - ```pip install opencv-python```
+   - ```pip install numpy```
+   - ```pip install pyserial```
+   - ```pip install leapc-python-api```
 
 5. Replace the original visualiser.py file in C:\Users\Intel NUC\Desktop\leapc-python-bindings-main\leapc-python-bindings-main\examples
    with this modifed code that is stored in the hand tracking program directory.
@@ -29,10 +29,10 @@ Gig Project: Controlling a 5-DOF AR4 Robotic Arm via Ultraleap Hand-tracking Cam
 7. Go to this directory using cmd
    - C:\Users\Intel NUC\Desktop\leapc-python-bindings-main\leapc-python-bindings-main\examples
    - type the following command to start the program of controlling the robot arm:
-   - python visualiser.py
+   - ```python visualiser.py```
 
 ## Troubleshooting
-1. Import error: cannot import leap as "something"
+1. ```Import error: cannot import leap as "something"```
 Solution:
 - Go to this directory below and copy all the python files
   C:\Users\Intel NUC\Desktop\leapc-python-bindings-main\leapc-python-bindings-main\leapc-python-api\src\leap
