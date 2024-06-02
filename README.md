@@ -1,6 +1,9 @@
 # 5DOF-Robotic-Arm
 Gig Project: Controlling a 5-DOF AR4 Robotic Arm via Ultraleap Hand-tracking Camera
 
+# Declaration
+- Ultraleap Python SDK files mentioned are taken as reference from https://github.com/ultraleap.
+
 # Requirement for using LeapMotion Hand Tracking Device
 1. Install Python version 3.8.x only
 
