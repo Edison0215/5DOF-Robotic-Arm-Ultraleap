@@ -1,10 +1,10 @@
 # 5DOF-Robotic-Arm
 Gig Project: Controlling a 5-DOF AR4 Robotic Arm via Ultraleap Hand-tracking Camera
 
-# Declaration
+## Declaration
 - Ultraleap Python SDK files mentioned are taken as reference from https://github.com/ultraleap.
 
-# Requirement for using LeapMotion Hand Tracking Device
+## Requirement for using LeapMotion Hand Tracking Device
 1. Install Python version 3.8.x only
 
 2. Install the latest Ultraleap Gemini for desktop version
@@ -31,7 +31,7 @@ Gig Project: Controlling a 5-DOF AR4 Robotic Arm via Ultraleap Hand-tracking Cam
    - type the following command to start the program of controlling the robot arm:
    - python visualiser.py
 
-# Troubleshooting
+## Troubleshooting
 1. Import error: cannot import leap as "something"
 Solution:
 - Go to this directory below and copy all the python files
@@ -59,7 +59,7 @@ Solution:
 - Upload the program to the Teensy 4.1
 - Close the INO file once the program is uploaded
 
-# Reminder when controlling the robot arm
+## Reminder when controlling the robot arm
 - Power the robot arm first before initializing the python program
 - The robot will automatically go to the reset mode, each motor touches its limit switch
 - Once reset is done, initialize the python program
