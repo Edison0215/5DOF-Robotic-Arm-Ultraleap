@@ -1,4 +1,0 @@
-build
-cffi
-opencv-python
-numpy
