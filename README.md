@@ -34,10 +34,10 @@ Gig Project: Controlling a 5-DOF AR4 Robotic Arm via Ultraleap Hand-tracking Cam
 ## Troubleshooting
 1. ```Import error: cannot import leap as "something"```
 - Go to this directory below and copy all the python files
-  C:\Users\Intel NUC\Desktop\leapc-python-bindings-main\leapc-python-bindings-main\leapc-python-api\src\leap
+- C:\Users\Intel NUC\Desktop\leapc-python-bindings-main\leapc-python-bindings-main\leapc-python-api\src\leap
 
 - Go to this directory below, delete all the python files and paste the previously copied python files here
-  C:\Users\Intel NUC\AppData\Local\Programs\Python\Python38\Lib\site-packages\leap
+- C:\Users\Intel NUC\AppData\Local\Programs\Python\Python38\Lib\site-packages\leap
 
 2. ```Attribut error: COMX cannot be found```
 - Go to Device Manager> Ports
@@ -54,7 +54,7 @@ Gig Project: Controlling a 5-DOF AR4 Robotic Arm via Ultraleap Hand-tracking Cam
 
 3. Teensy program 
 - Go to this INO file
-  C:\Users\Intel NUC\Desktop\leapc-python-bindings-main\leapc-python-bindings-main\examples\AR4_teensy_serial_communicator
+- C:\Users\Intel NUC\Desktop\leapc-python-bindings-main\leapc-python-bindings-main\examples\AR4_teensy_serial_communicator
 - Upload the program to the Teensy 4.1
 - Close the INO file once the program is uploaded
 
