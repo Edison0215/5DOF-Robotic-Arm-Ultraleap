@@ -20,7 +20,10 @@ Gig Project: Controlling a 5-DOF AR4 Robotic Arm via Ultraleap Hand-tracking Cam
 
 5. Replace the original visualiser.py file in C:\Users\Intel NUC\Desktop\leapc-python-bindings-main\leapc-python-bindings-main\examples
    with this modifed code that is stored in the hand tracking program directory.
-6. Go to this directory using cmd
+
+6. Add the pyduino.py into C:\Users\Intel NUC\Desktop\leapc-python-bindings-main\leapc-python-bindings-main\examples
+   
+7. Go to this directory using cmd
    - C:\Users\Intel NUC\Desktop\leapc-python-bindings-main\leapc-python-bindings-main\examples
    - type the following command to start the program of controlling the robot arm:
    - python visualiser.py
@@ -42,19 +45,19 @@ Solution:
 - Go to line 11 of the python file and change the COM number
 - Remember to save the python file!
 
------------------------------ or -----------------------------------
-- Opening the visualiser.py and the AR4_teensy_serial_communicator.ino file at the same time is disallowed
-- Only open one file to run: the python file, visualiser.py\
+----------------------------- REMINDER -----------------------------------
+- Opening the visualiser.py and the AR4_teensy_serial_communicator.ino file at the same time are disallowed
+- Only open one file to run which is the python file, visualiser.py
 - Close other unecessary windows, especially the AR4_teensy_serial_communicator.ino
 
 3. Teensy program 
 - Go to this INO file
   C:\Users\Intel NUC\Desktop\leapc-python-bindings-main\leapc-python-bindings-main\examples\AR4_teensy_serial_communicator
-- Run the program to the Teensy 4.1
+- Upload the program to the Teensy 4.1
 - Close the INO file once the program is uploaded
 
 # Reminder when controlling the robot arm
-- Power up the robot arm first before initializing the python program
+- Power the robot arm first before initializing the python program
 - The robot will automatically go to the reset mode, each motor touches its limit switch
 - Once reset is done, initialize the python program
 - When robot arm is not in used, please replug the power port for resetting its position
