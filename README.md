@@ -20,10 +20,10 @@ Gig Project: Controlling a 5-DOF AR4 Robotic Arm via Ultraleap Hand-tracking Cam
 
 5. Replace the original visualiser.py file in C:\Users\Intel NUC\Desktop\leapc-python-bindings-main\leapc-python-bindings-main\examples
    with this modifed code that is stored in the hand tracking program directory.
-7. Go to this directory using cmd
-   C:\Users\Intel NUC\Desktop\leapc-python-bindings-main\leapc-python-bindings-main\examples
-   type the following command to start the program of controlling the robot arm:
-   python visualiser.py
+6. Go to this directory using cmd
+   - C:\Users\Intel NUC\Desktop\leapc-python-bindings-main\leapc-python-bindings-main\examples
+   - type the following command to start the program of controlling the robot arm:
+   - python visualiser.py
 
 # Troubleshooting
 1. Import error: cannot import leap as "something"
