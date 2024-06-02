@@ -33,14 +33,13 @@ Gig Project: Controlling a 5-DOF AR4 Robotic Arm via Ultraleap Hand-tracking Cam
 
 ## Troubleshooting
 1. ```Import error: cannot import leap as "something"```
-Solution:
 - Go to this directory below and copy all the python files
   C:\Users\Intel NUC\Desktop\leapc-python-bindings-main\leapc-python-bindings-main\leapc-python-api\src\leap
 
 - Go to this directory below, delete all the python files and paste the previously copied python files here
   C:\Users\Intel NUC\AppData\Local\Programs\Python\Python38\Lib\site-packages\leap
 
-2. Attribut error: COMX cannot be found
+2. ```Attribut error: COMX cannot be found```
 - Go to Device Manager> Ports
 - Check the COM number of the USB serial device of Teensy 4.1
 - Go to this python file 
