@@ -48,7 +48,7 @@ Solution:
 - Go to line 11 of the python file and change the COM number
 - Remember to save the python file!
 
-#### ----------------------------- REMINDER -----------------------------------
+#### IMPORTANT!
 - Opening the visualiser.py and the AR4_teensy_serial_communicator.ino file at the same time are disallowed
 - Only open one file to run which is the python file, visualiser.py
 - Close other unecessary windows, especially the AR4_teensy_serial_communicator.ino
