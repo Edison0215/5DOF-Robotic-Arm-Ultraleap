@@ -21,10 +21,10 @@ Gig Project: Controlling a 5-DOF AR4 Robotic Arm via Ultraleap Hand-tracking Cam
    - ```pip install pyserial```
    - ```pip install leapc-python-api```
 
-5. Replace the original visualiser.py file in C:\Users\Intel NUC\Desktop\leapc-python-bindings-main\leapc-python-bindings-main\examples
+5. Replace the original ```visualiser.py``` file in C:\Users\Intel NUC\Desktop\leapc-python-bindings-main\leapc-python-bindings-main\examples
    with this modifed code that is stored in the hand tracking program directory.
 
-6. Add the pyduino.py into C:\Users\Intel NUC\Desktop\leapc-python-bindings-main\leapc-python-bindings-main\examples
+6. Add the ```pyduino.py``` into C:\Users\Intel NUC\Desktop\leapc-python-bindings-main\leapc-python-bindings-main\examples
    
 7. Go to this directory using cmd
    - C:\Users\Intel NUC\Desktop\leapc-python-bindings-main\leapc-python-bindings-main\examples
