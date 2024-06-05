@@ -1,4 +1,4 @@
-# 5DOF-Robotic-Arm
+# 5DOF-Robotic-Arm-Ultraleap
 Gig Project: Controlling a 5-DOF AR4 Robotic Arm via Ultraleap Hand-tracking Camera
 
 ## Declaration
